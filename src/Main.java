@@ -9,7 +9,7 @@ byte a = 1;
 short b = 1;
 int c = 1;
 int d = a + b + c;
-        System.out.println( d);
+        System.out.println(d);
 
     }
 }
