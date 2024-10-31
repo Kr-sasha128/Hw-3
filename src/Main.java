@@ -110,9 +110,9 @@ int d = a + b + c;
         int bonusForTheYearM = (int) differenceM * onlyMonths;
         int bonusForTheYearD = (int) differenceD * onlyMonths;
         int bonusForTheYearC = (int) differenceC * onlyMonths;
-        System.out.println (  "Маша теперь получает " + MashaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearM + " рублей" );
-        System.out.println (  "Денис теперь получает " +  DenisGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearD + " рублей" );
-        System.out.println (  " Кристина теперь получает " +  ChristinaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearC + " рублей" );
+        System.out.println ( "Маша теперь получает " + MashaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearM + " рублей" );
+        System.out.println ( "Денис теперь получает " +  DenisGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearD + " рублей" );
+        System.out.println ( " Кристина теперь получает " +  ChristinaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearC + " рублей" );
 
     }
 }
