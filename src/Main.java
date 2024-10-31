@@ -22,7 +22,8 @@ int d = a + b + c;
         System.out.println("Значение переменной i с типом float равно " + i);
         double j = 8.800553535;
         System.out.println("Значение переменной j с типом double равно " + j);
-        float k = 27.12F;
+
+        float k = (float) 27.12;
         System.out.println( k );
         Long l = 987678965549L;
         System.out.println(l);
@@ -36,14 +37,16 @@ int d = a + b + c;
         System.out.println(p);
         byte q = 67;
         System.out.println(q);
+
         byte lyudmilaPavlovna = 23;
         byte annaSergeevn = 27;
-        byte Ekaterinaandreevna = 30;
-        short pupilsInThreeClasses = (short) (lyudmilaPavlovna + annaSergeevn + Ekaterinaandreevna);
+        byte EkaterinaAndreevna = 30;
+        short pupilsInThreeClasses = (short) (lyudmilaPavlovna + annaSergeevn + EkaterinaAndreevna);
         System.out.println(pupilsInThreeClasses + " Учеников в 3-х классах");
         short totalSheets = 480;
         int sheetsPerPerson = totalSheets / pupilsInThreeClasses;
         System.out.println( "На каждого ученика рассчитано " + sheetsPerPerson + " листов бумаги");
+
         byte Performance = 16;
         System.out.println( "За 2 минуты машина произвела " + Performance + " штук бутылок");
         short twentyMinutes = (short) (Performance * 10);
@@ -63,11 +66,12 @@ int d = a + b + c;
         short totalWhiteCans = (short) (whiteCans * totalClasses);
         short totalCansOfBrown = (short) (cansOfBrown * totalClasses);
         System.out.println("В школе где " + totalClasses + " классов,нужно " + totalWhiteCans + " банок белой краски и " + totalCansOfBrown + " банок коричневой краски" );
-        byte Bananas = 5;
+
+        byte BananasSport = 5;
         short Milk = 200;
         byte iceCream = 2;
         byte EggsRaw = 4;
-        short BananasGr = (short) (Bananas * 80);
+        short BananasGr = (short) (BananasSport * 80);
         short MilkGr = (short)  (Milk * 105 / 100);
         short IceCreamGr = (short) (iceCream * 100);
         short EggsRawGr = (short) (EggsRaw * 70);
@@ -81,12 +85,13 @@ int d = a + b + c;
             double lightOk = (double)  target / light * 1000;
         System.out.println ((int) lightOk + " дней потребуется ели спортсмен будет скидывать 250 грамм в день " );
             double hardOk = (double) target / hard * 1000;
-            System.out.println ( (int) hardOk + " дней потребуется ели спортсмен будет скидывать 250 грамм в день " );
+            System.out.println ( (int) hardOk + " дней потребуется ели спортсмен будет скидывать 500 грамм в день " );
         int twoPrograms = light + hard;
         int averageTwoPrograms = twoPrograms / 2;
         System.out.println( averageTwoPrograms + " столько грамм в день спортсмен будет скидывать если спортсмен будет использовать сочитания двух программ ");
         double average = (double) target / averageTwoPrograms * 1000;
         System.out.println( (int) average + " Дней потребуется если спортсмен будет использовать сочитания двух программ " );
+ 
         int MashaGets = 67760;
         int DenisGets = 83690;
         int ChristinaGets = 76230;
@@ -105,9 +110,9 @@ int d = a + b + c;
         int bonusForTheYearM = (int) differenceM * onlyMonths;
         int bonusForTheYearD = (int) differenceD * onlyMonths;
         int bonusForTheYearC = (int) differenceC * onlyMonths;
-        System.out.println (  "Маша теперь получает " + (int) MashaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearM + " рублей" );
-        System.out.println (  "Денис теперь получает " + (int) DenisGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearD + " рублей" );
-        System.out.println (  "Кристина теперь получает " + (int) ChristinaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearC + " рублей" );
+        System.out.println (  "Маша теперь получает " + MashaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearM + " рублей" );
+        System.out.println (  "Денис теперь получает " +  DenisGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearD + " рублей" );
+        System.out.println (  "Кристина теперь получает " +  ChristinaGetsEndBonus + " рублей. Годовой доход вырос на " + bonusForTheYearC + " рублей" );
 
     }
 }
